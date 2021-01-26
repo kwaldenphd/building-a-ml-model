@@ -5,9 +5,13 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 ## Lab Goals
 
-## Acknowledgements
+This lab provides a framework for building a basic machine learning model in Python. It covers the basic steps of a machine learning workflow and provides additional resources for building a model.
 
 # Table of Contents
+
+- [Overview](#overview)
+- [Resources](#resources)
+- [Lab Notebook Components](#lab-notebook-components)
 
 # Overview
 
