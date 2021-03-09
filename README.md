@@ -111,7 +111,11 @@ This option does not involve any programming and runs entirely through the web-b
 
 # Lab Notebook Components
 
-For all of these options, the lab notebook consists of a narrative that documents and describes your experience working through this lab. What challenges did you face, and how did you solve them? What did you learn about machine learning through this lab? How are you thinking about machine learning differently after this lab?
+For all of these options, the lab notebook consists of a narrative that documents and describes your experience working through this lab. 
+- What challenges did you face, and how did you solve them? 
+- What did you learn about machine learning through this lab? 
+- How are you thinking about machine learning differently after this lab?
+- Other comments/questions/observations
 
 I encourage folks to include code + screenshots as part of that narrative.
 
