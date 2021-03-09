@@ -10,7 +10,11 @@ This lab provides a framework for building a basic machine learning model in Pyt
 # Table of Contents
 
 - [Overview](#overview)
-- [Resources](#resources)
+- [Option #1](#option-1)
+  * [Resources](#resources)
+- [Option #2](#option-2)
+- [Option #3](#option-3)
+- [Option #4](#option-4)
 - [Lab Notebook Components](#lab-notebook-components)
 
 # Overview
@@ -49,11 +53,17 @@ In short, TIME.
 
 Which is why we're spending two weeks on this lab and working collaboratively.
 
-There is no formal procedure or workflow.
+# Lab Options
 
-Use the six steps above and resources outlined below.
+There are a few different options for how you can approach this lab.
 
-# Resources
+## Option #1
+
+Use the steps outlined above and resources provided below to identify a problem/topic, relevant dataset, and build your own machine learning model.
+
+This is the most open-ended and technically complex option.
+
+### Resources
 
 Starting with a method or concept's Wikipedia page can give you the broad strokes as well as links or citatations for additional resources.
 
@@ -70,24 +80,39 @@ Package documentation:
 
 The [`scikit-learn` documentation](https://scikit-learn.org/stable/index.html) also has useful algorithm overviews, examples, and tutorials. 
 
+## Option #2
+
+Read pages 94-114 from Meredith Broussard's 2018 book [*Artificial Unintelligence: How Computers Misunderstand the World*](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189) (MIT Press). In this section of Chapter 7 "Machine Learning: The DL on the ML," Broussard outlines a machine learning workflow using data about Titanic passengers.
+- Excerpt is included in this GitHub repo as a PDF.
+- [Link to electronic access through Hesburgh Libraries](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189)
+
+Follow the steps outlined in the chapter excerpt to build a machine learning classifier.
+
+If you want a Jupyter notebook related to this option: [Lauren F. Klein](https://lklein.com/)'s lab implementation of Broussard's exercise, developed for the Spring 2020 Emory University course [QTM 490 "Feminist Data Science"](https://github.com/laurenfklein/feminist-data-science).
+- [Jupyter notebook for lab activity](https://github.com/laurenfklein/feminist-data-science/blob/master/notebooks/lab2-survival/lab2-survival-inclass.ipynb)
+
+This is a guided (i.e. not open-ended), moderately complex option.
+
+## Option #3
+
+Work through the *Digital Ocean* "How to Build a Machine Learning Classifier in Python With Scikit-learn" tutorial.
+
+Michelle Morales, "[How to Build a Machine Learning Classifier in Python With Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)" *Digital Ocean* (24 March 2019).
+
+This is a guided (i.e. not open-ended), moderately complex option.
+
+## Option #4
+
+Use Google's "[Teachable Machine](https://teachablemachine.withgoogle.com/)" project website to assemble a collection of objects/data and build a machine learning model.
+
+The Teachable Machine website provides tutorials and a workflow overview, so there is structure, but the type of model and content used to build the model is open-ended. 
+
+This option does not involve any programming and runs entirely through the web-based interface.
+
 # Lab Notebook Components
 
-Your lab notebook includes narrative reflection and code + comments that address your work on each of the following components:
+For all of these options, the lab notebook consists of a narrative that documents and describes your experience working through this lab. What challenges did you face, and how did you solve them? What did you learn about machine learning through this lab? How are you thinking about machine learning differently after this lab?
 
-Part 1: Identify the problem or question, think about options for answering or solving, and decide if machine learning will be a useful tool.
+I encourage folks to include code + screenshots as part of that narrative.
 
-Part 2: Identify and analyze available datasets to see if sufficient data is available to build a model
-
-Part 3: Transform the data into a tabular structure so it can be the input for a machine learning model
-
-Part 4: Train the model (or more accurately engage in an iterative process of training the model)
-
-Part 5: Evaluate the model to see if (and how effectively) it solves the original question/problem
-
-Part 6: Deploy the model and reflect on the experience
-
-Some parts will consist of more written narrative. Others will focus more on code + comments. This is fine.
-
-The notebook can include a text document and accompanying `.py` files. But a Jupyter notebook is also a good option for this type of report-based lab notebook.
-
-The Part 6 reflection should include comments from each member of the group.
+This reflection should include comments from each member of the group. These can be combined in a single notebook or submitted individually along with work completed collaboratively.
