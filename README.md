@@ -21,17 +21,17 @@ This lab provides a framework for building a basic machine learning model in Pyt
 
 The previous lab included a brief discussion of the fundamentals of a machine learning workflow.
 
-Step 1- identify the problem or question, think about options for answering or solving, and decide if machine learning will be a useful tool.
+  * Step 1- identify the problem or question, think about options for answering or solving, and decide if machine learning will be a useful tool.
 
-Step 2- identify and analyze available datasets to see if sufficient data is available to build a model
+  * Step 2- identify and analyze available datasets to see if sufficient data is available to build a model
 
-Step 3- transform the data into a tabular structure so it can be the input for a machine learning model
+  * Step 3- transform the data into a tabular structure so it can be the input for a machine learning model
 
-Step 4- train the model (or more accurately engage in an iterative process of training the model)
+  * Step 4- train the model (or more accurately engage in an iterative process of training the model)
 
-Step 5- evaluate the model to see if (and how effectively) it solves the original question/problem
+  * Step 5- evaluate the model to see if (and how effectively) it solves the original question/problem
 
-Step 6- deploy the model
+  * Step 6- deploy the model
 
 Our goal in this lab is for you to come up with a problem or question that can be answered via machine learning and build a model that responds to that question/problem.
 
@@ -39,23 +39,28 @@ Simple, right?
 
 As you can imagine, this is an iterative process that takes TIME.
 
-Time to determine the central problem or question, and figure out if machine learning is a good fit.
+  * Time to determine the central problem or question, and figure out if machine learning is a good fit.
 
-Time to figure out what data is needed to build a model, identify or collect that data, and wrangle it into a tabular structure.
+  * Time to figure out what data is needed to build a model, identify or collect that data, and wrangle it into a tabular structure.
 
-Time to figure out what type of model is the best fit for the question/problem AS WELL AS the input data.
+  * Time to figure out what type of model is the best fit for the question/problem AS WELL AS the input data.
 
-Time to train the model and evaluate the effectiveness of the model.
+  * Time to train the model and evaluate the effectiveness of the model.
 
-Time to figure out what the model has to say about your original question or problem.
+  * Time to figure out what the model has to say about your original question or problem.
 
-In short, TIME.
+  * In short, TIME.
+
 
 Which is why we're spending two weeks on this lab and working collaboratively.
 
 # Lab Options
 
 There are a few different options for how you can approach this lab.
+
+Lab notebook templates:
+- [Jupyter Notebook](https://colab.research.google.com/drive/1Uen-hrgBbOLyGNYg0sjgeH-TFOUekqBk?usp=sharing)
+- [Google Doc](https://docs.google.com/document/d/1-mG_8WLzM7cK8rjnsSOYJ-xbs0MoL-uxzXDWKD8cn6U/copy)
 
 ## Option #1
 
@@ -82,14 +87,27 @@ The [`scikit-learn` documentation](https://scikit-learn.org/stable/index.html) a
 
 ## Option #2
 
-Read pages 94-114 from Meredith Broussard's 2018 book [*Artificial Unintelligence: How Computers Misunderstand the World*](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189) (MIT Press). In this section of Chapter 7 "Machine Learning: The DL on the ML," Broussard outlines a machine learning workflow using data about Titanic passengers.
-- Excerpt is included in this GitHub repo as a PDF.
-- [Link to electronic access through Hesburgh Libraries](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189)
+Read pages 94-114 from Meredith Broussard's 2018 book [*Artificial Unintelligence: How Computers Misunderstand the World*](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189) (MIT Press). 
+
+In this section of Chapter 7 "Machine Learning: The DL on the ML," Broussard outlines a machine learning workflow using data about Titanic passengers.
 
 Follow the steps outlined in the chapter excerpt to build a machine learning classifier.
 
-If you want a Jupyter notebook related to this option: [Lauren F. Klein](https://lklein.com/)'s lab implementation of Broussard's exercise, developed for the Spring 2020 Emory University course [QTM 490 "Feminist Data Science"](https://github.com/laurenfklein/feminist-data-science).
-- [Jupyter notebook for lab activity](https://github.com/laurenfklein/feminist-data-science/blob/master/notebooks/lab2-survival/lab2-survival-inclass.ipynb)
+Chapter excerpt:
+- [Access via Google Drive](https://drive.google.com/file/d/1sXJPcvk84SDB3QXCNWiKwL7AQ-gKcgh7/view?usp=sharing) (ND users only)
+- [Link to electronic access through Hesburgh Libraries](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph004791189)
+
+Jupyter notebook:
+- [Link to Jupyter Notebook](https://colab.research.google.com/drive/1dJLBUyDvQZ7qGzsUxiVbegxZkDiDRMr4?usp=sharing)
+  * SOURCE: Adapted from [Lauren F. Klein](https://lklein.com/)'s  [implementation of Broussard's exercise](https://github.com/laurenfklein/feminist-data-science/blob/master/notebooks/lab2-survival/lab2-survival-inclass.ipynb), developed for the Spring 2020 Emory University course [QTM 490 "Feminist Data Science"](https://github.com/laurenfklein/feminist-data-science).
+
+You'll also need two data files for  this option: `text.csv` and `train.csv`
+- GitHub
+  * Test: https://raw.githubusercontent.com/kwaldenphd/building-a-ml-model/main/data/test.csv
+  * Train: https://raw.githubusercontent.com/kwaldenphd/building-a-ml-model/main/data/train.csv
+- Google Drive
+  * [Test](https://drive.google.com/file/d/1YIKOH2upzQQUAiIqLwIqk5xdddetDsfR/view?usp=sharing)
+  * [Train](https://drive.google.com/file/d/1CcHmC4hvVrLeM8AeSHmxCJSUvdXofGN_/view?usp=sharing)
 
 This is a guided (i.e. not open-ended), moderately complex option.
 
@@ -98,6 +116,7 @@ This is a guided (i.e. not open-ended), moderately complex option.
 Work through the *Digital Ocean* "How to Build a Machine Learning Classifier in Python With Scikit-learn" tutorial.
 
 Michelle Morales, "[How to Build a Machine Learning Classifier in Python With Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)" *Digital Ocean* (24 March 2019).
+- [Link to Jupyter Notebook](https://colab.research.google.com/drive/1W0Onsdkmu_s3rGuXnm5PEWtPLlsONsXP?usp=sharing)
 
 This is a guided (i.e. not open-ended), moderately complex option.
 
@@ -111,12 +130,18 @@ This option does not involve any programming and runs entirely through the web-b
 
 # Lab Notebook Components
 
+Lab notebook templates:
+- [Jupyter Notebook](https://colab.research.google.com/drive/1Uen-hrgBbOLyGNYg0sjgeH-TFOUekqBk?usp=sharing)
+- [Google Doc](https://docs.google.com/document/d/1-mG_8WLzM7cK8rjnsSOYJ-xbs0MoL-uxzXDWKD8cn6U/copy)
+
 For all of these options, the lab notebook consists of a narrative that documents and describes your experience working through this lab. 
+- What option did you select?
 - What challenges did you face, and how did you solve them? 
 - What did you learn about machine learning through this lab? 
 - How are you thinking about machine learning differently after this lab?
 - Other comments/questions/observations
 
 I encourage folks to include code + screenshots as part of that narrative.
+- You are welcome (but not required) to include Python code as part of that narrative.
 
 This reflection should include comments from each member of the group. These can be combined in a single notebook or submitted individually along with work completed collaboratively.
