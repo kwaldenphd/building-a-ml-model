@@ -83,7 +83,10 @@ Package documentation:
 - [`matplotlib`](https://matplotlib.org/3.3.3/users/installing.html)
 - [`pandas`](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
-The [`scikit-learn` documentation](https://scikit-learn.org/stable/index.html) also has useful algorithm overviews, examples, and tutorials. 
+The [`scikit-learn` documentation](https://scikit-learn.org/stable/index.html) also has useful algorithm overviews, examples, and tutorials.
+
+Another resource that includes Python machine learning tutorials:
+- Lisa Tagliaferri and Brian Boucheron, [*Python Machine Learning Projects*](https://www.digitalocean.com/community/books/python-machine-learning-projects-a-digitalocean-ebook) (Digital Ocean, May 2019)
 
 ## Option #2
 
